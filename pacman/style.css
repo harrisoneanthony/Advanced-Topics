@@ -1,10 +1,15 @@
+
+
 body {
     background-color: black;
+    margin: 0px;
 }
 div.row div{
-    width: 20px;
-    height: 20px;
+    width: 100px;
+    height: 100px;
     display: inline-block;
+    margin-bottom: -5px;
+    /* margin-right: -1px; */
 }
 
 .brick {
@@ -18,10 +23,25 @@ div.coin {
     background-size: cover;
 }
 
-div.pacman {
+div#pacman {
     background-image: url('img/pacman.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
 }
 
+div#score {
+    border: 1px solid white;
+    width: 120px;
+    height: 100px;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-size: 5em;
+    position: absolute;
+    top: 10px;
+    left: 1050px;
+}
