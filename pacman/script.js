@@ -32,6 +32,8 @@ function createRandomWorld(){
     console.log(world)
 }
 
+
+
 function displayWorld(){
     var output ='';
     for (var i=0; i<world.length; i++){
